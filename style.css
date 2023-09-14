@@ -1,0 +1,68 @@
+h3{
+    color: steelblue;
+    text-align: center;
+}
+h4{
+    color: palevioletred;
+    text-decoration:underline;
+}
+input:checked{
+    height: 20px;
+    width: 20px;
+    accent-color: green;
+}
+input:enabled{
+    background-color: mediumseagreen;
+}
+input:disabled{
+    background-color: indianred;
+}
+input:focus{
+    background-color: burlywood;
+}
+input:in-range{
+    border: 3px solid orange;
+    background-color: blanchedalmond;
+}
+input:out-of-range{
+    border: 3px solid red;
+    background-color: pink;
+}
+input:valid{
+    border: 3px solid green;
+    background-color: mediumseagreen; 
+}
+input:invalid{
+   border: 3px solid red;
+    background-color: pink; 
+}
+.cls1 p{
+    color: aqua;
+}
+.cls1 :not(p){
+    color: aquamarine;
+}
+p:empty{
+    height: 15px;
+    width: 100%;
+    background-color: lightblue;
+}
+
+div.box1 p:first-of-type{
+    color: royalblue;
+}
+div.box2 p:last-of-type{
+    color: red;
+}
+div.box3 p:first-child{
+    color: orange;
+}
+div.box3 :last-child{
+    color: plum;
+}
+div.box4 p:nth-child(2n){
+    color: #b51919;
+}
+div.box5 p:nth-last-of-type(odd){
+    color: red;
+}
